@@ -75,13 +75,15 @@ void draw() {
 
     alienShoot(50);
 
+    checkWin();
+    
     checkAlienDead(); /*finish this function*/
     checkShipHit();  /*finish this function*/
 
     checkRubyDrop(200);
     checkRubyHit();
     
-    checkWin();
+    
 
     countBulletFrame+=1;
     countLaserFrame +=1;
