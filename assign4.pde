@@ -403,7 +403,7 @@ void checkRubyDrop(int pt) {
       ruby.show = true;
       ruby.pX = int(random(width));
       ruby.pY = -10;
-      //      rubyPoint=0;
+      rubyPoint=0;
     }
   }
 }
